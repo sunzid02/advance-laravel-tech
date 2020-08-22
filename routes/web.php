@@ -2,7 +2,10 @@
 
 use App\Postcard;
 use App\PostcardSendingService;
+use Illuminate\Routing\ResponseFactory;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    dd( Str::partNumber('3214568785645646', 'zia') );
+
+    return Response::errorJson('Huge error occured');
     return view('welcome');
 });
 
