@@ -44,3 +44,6 @@ Route::get('facades', function () {
     Postcard::hello('my  message', 'test@test.com');
 
 });
+
+//pipelines
+Route::get('pipelines', 'NewPostController@index');
