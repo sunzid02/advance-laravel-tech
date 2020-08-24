@@ -47,3 +47,9 @@ Route::get('facades', function () {
 
 //pipelines
 Route::get('pipelines', 'NewPostController@index');
+
+//Repository
+Route::get('customers', 'CustomerController@index');
+Route::get('customer/{customerId}', 'CustomerController@show');
+Route::get('customer/{customerId}/update', 'CustomerController@update');
+Route::get('customer/{customerId}/delete', 'CustomerController@destroy');
