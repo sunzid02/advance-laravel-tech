@@ -1,6 +1,6 @@
 # Advance-Laravel-Tech
 
-  Advance Features of Laravel I learned from Coder's Tape youtube channel.
+  Advance Features of Laravel I learned from [Coder's Tape](https://www.youtube.com/channel/UCQI-Ym2rLZx52vEoqlPQMdg) youtube channel.
   
   ## [Visit the Tutorial](https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=1)
   
