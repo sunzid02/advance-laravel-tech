@@ -17,10 +17,10 @@
    * Facade
    
    * Macros
-           * Macros allow you to add functions to many of the built in classes in Laravel using a Service Provider or a dedicated class
+     * Macros allow you to add functions to many of the built in classes in Laravel using a Service Provider or a dedicated class
 
    * Pipelines
-           * Pipeline is a design pattern specifically optimized to handle stepped changes to an object. Think of an assembly line, where each step is a pipe and by the end of the line, you have your transformed object.
+      * Pipeline is a design pattern specifically optimized to handle stepped changes to an object. Think of an assembly line, where each step is a pipe and by the end of the line, you have your transformed object.
            
    * Repository Pattern
       * The Repository Pattern is a common refactor that you may encounter in large Laravel applications. While it is not ideal for small to medium projects, it's a perfect solution for those applications that need an abstraction of the data layer.
