@@ -25,4 +25,5 @@
    * Repository Pattern
       * The Repository Pattern is a common refactor that you may encounter in large Laravel applications. While it is not ideal for small to medium projects, it's a perfect solution for those applications that need an abstraction of the data layer.
    
+   * Soft Deletes
    
