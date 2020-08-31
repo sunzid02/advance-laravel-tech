@@ -14,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Route::middleware('auth:api')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+
+Route::get('cars', 'CarController@index');
+Route::post('car/store', 'CarController@store');
+
+//Route::get('customer/{customerId}', 'manager-linux-x64.run@show');
+//Route::get('customer/{customerId}/update', 'CustomerController@update');
+//Route::get('customer/{customerId}/delete', 'CustomerController@destroy');

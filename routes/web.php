@@ -19,9 +19,9 @@ use Illuminate\Support\Str;
 */
 
 Route::get('/', function () {
-    dd( Str::partNumber('3214568785645646', 'zia') );
+//    dd( Str::partNumber('3214568785645646', 'zia') );
 
-    return Response::errorJson('Huge error occured');
+//    return Response::errorJson('Huge error occured');
     return view('welcome');
 });
 
@@ -50,10 +50,43 @@ Route::get('pipelines', 'NewPostController@index');
 
 //Repository
 Route::get('customers', 'CustomerController@index');
-Route::get('customer/{customerId}', 'CustomerController@show');
+Route::get('customer/{customerId}', 'manager-linux-x64.run@show');
 Route::get('customer/{customerId}/update', 'CustomerController@update');
 Route::get('customer/{customerId}/delete', 'CustomerController@destroy');
 
 
+
+
+Route::get('/{path}', function () {
+    return view('car.index');
+
+})->where('path', '.*');
+
+
+
+
+
 //soft delete
 Route::get('posts', 'PostController@index');
+
+
+
+
+
+
+
+
+
+
+
+////testing
+Route::get('/react-test', function () {
+
+    return view('react_test');
+});
+
+
+
+
+
+
